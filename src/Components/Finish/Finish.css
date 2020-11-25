@@ -1,0 +1,23 @@
+.MailBoxImage {
+	width: 300px;
+	height: 200px;
+}
+.FinishMainParagraph {
+	color: #ff615b;
+	font-weight: bold;
+	text-align: center;
+}
+.MailBoxImageSuccess {
+	width: 250px;
+	height: 150px;
+}
+.SuccessContainer p {
+	margin-bottom: 0px;
+	text-align: center;
+}
+.ResendPar span {
+	text-decoration: underline;
+	color: #ff5f59;
+	font-weight: bold;
+	cursor: pointer;
+}

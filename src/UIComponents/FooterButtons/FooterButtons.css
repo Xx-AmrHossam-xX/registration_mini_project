@@ -1,0 +1,10 @@
+.BackNextContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+.BackNextContainer .btn-primary {
+	width: 28%;
+}
+.BackNextContainer .btn-secondary {
+	width: 15%;
+}

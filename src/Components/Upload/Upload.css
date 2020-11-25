@@ -1,0 +1,34 @@
+.ImageContainer {
+	width: 100px;
+	background-color: lightgray;
+	border-radius: 50%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.Plusicon {
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	width: 20px !important;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+}
+.ImageIcon {
+	width: 30px !important;
+	height: 30px;
+}
+.Inputimage {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	overflow: hidden;
+}

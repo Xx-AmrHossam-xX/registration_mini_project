@@ -1,0 +1,25 @@
+.LoadingContainer {
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	z-index: inherit 999999999999;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.LoadingContainer p {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.LoadingContainer .spinner-border {
+	width: 150px;
+	height: 150px;
+}
