@@ -1,0 +1,31 @@
+.TopContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: lightgray;
+}
+.SubContainer {
+	min-width: 60vw;
+	width: 60vw;
+}
+.RouterNav {
+	pointer-events: none;
+}
+.RouterList {
+	list-style: none;
+	justify-content: space-around;
+	display: flex;
+	padding-left: 0;
+}
+.RouterList li a {
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 23%;
+	background-color: white;
+}
+.RouterList li a svg {
+	width: 20px !important;
+	height: 20px;
+}

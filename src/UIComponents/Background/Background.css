@@ -1,0 +1,14 @@
+.BackgroundTitle {
+	font-size: 20px;
+}
+.Container {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+#Success {
+	height: auto;
+}

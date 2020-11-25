@@ -1,0 +1,28 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+#VerifyCountry,
+#VerifyCity {
+	width: 48%;
+}
+#VerifyCompanyNo,
+#VerifyRepeatedCompanyNo {
+	width: 50%;
+}
+@media (max-width: 800px) {
+	#VerifyCountry,
+	#VerifyCity,
+	#VerifyCompanyNo,
+	#VerifyRepeatedCompanyNo {
+		width: 100%;
+	}
+}
